@@ -1,0 +1,7 @@
+interface:
+  display_name: "Deliver with Evidence"
+  short_description: "Deliver scoped work with verifiable evidence"
+  default_prompt: "Use $deliver-with-evidence to carry this task from grounded scope through authorized implementation and evidence-backed handoff."
+
+policy:
+  allow_implicit_invocation: false
