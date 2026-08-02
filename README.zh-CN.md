@@ -23,7 +23,7 @@ gh skill list --agent codex --scope user
 最后一条命令用于确认 skill 的安装位置。
 
 <details>
-<summary>v0.1.0 标签发布后固定安装该版本</summary>
+<summary>安装 v0.1.0 public preview</summary>
 
 ```console
 gh skill install TogawaSakiko-desuwa/deliver-with-evidence deliver-with-evidence@v0.1.0 --agent codex --scope user
@@ -204,12 +204,12 @@ $deliver-with-evidence 准备发布，运行发布检查，推送 release 分支
 ## 证据与发布状态
 
 > [!IMPORTANT]
-> 本仓库当前以 **v0.1.0 public preview** 为目标。CI 使用固定版本的 Agent Skills 参考验证器检查公开 skill。项目目前不宣称已通过行为发布资格验证；稳定版之前，行为契约与 GitHub CLI 公开预览中的 `gh skill` 接口仍可能变化。
+> 当前发布版本为 **v0.1.0 public preview**。CI 使用固定版本的 Agent Skills 参考验证器检查公开 skill。项目目前不宣称已通过行为发布资格验证；稳定版之前，行为契约与 GitHub CLI 公开预览中的 `gh skill` 接口仍可能变化。
 
 | 证据 | 当前结果 |
 | --- | --- |
 | Agent Skills 参考验证器 | 已在 [CI](.github/workflows/validate.yml) 中固定版本并配置执行 |
-| GitHub 发布检查 | 发布前运行 `gh skill publish --dry-run` |
+| GitHub 发布检查 | 已通过 `gh skill publish --dry-run` 校验 |
 | 行为发布资格 | v0.1.0 public preview 目前不作已通过声明 |
 
 结构校验不能证明模型已经通过某个行为场景。行为变更仍需在干净上下文中验证，并在拉取请求中提供脱敏摘要。

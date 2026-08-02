@@ -23,7 +23,7 @@ gh skill list --agent codex --scope user
 The final command confirms where the skill was installed.
 
 <details>
-<summary>Pin v0.1.0 after that tag is published</summary>
+<summary>Install the v0.1.0 public preview</summary>
 
 ```console
 gh skill install TogawaSakiko-desuwa/deliver-with-evidence deliver-with-evidence@v0.1.0 --agent codex --scope user
@@ -207,12 +207,12 @@ This skill is a behavioral protocol, not a security sandbox. Keep the host's app
 ## Evidence and release status
 
 > [!IMPORTANT]
-> This repository targets **v0.1.0 public preview**. CI validates the published skill against a pinned Agent Skills reference validator. Behavioral release qualification is not yet claimed, and the behavior contract and GitHub CLI's public-preview `gh skill` interface may still change.
+> The current release is **v0.1.0 public preview**. CI validates the published skill against a pinned Agent Skills reference validator. Behavioral release qualification is not yet claimed, and the behavior contract and GitHub CLI's public-preview `gh skill` interface may still change.
 
 | Evidence | Current result |
 | --- | --- |
 | Agent Skills reference validator | Pinned and configured in [CI](.github/workflows/validate.yml) |
-| GitHub publication check | Run `gh skill publish --dry-run` before release |
+| GitHub publication check | Validated with `gh skill publish --dry-run` |
 | Behavioral release qualification | Not yet claimed for the v0.1.0 public preview |
 
 Structural validation is not evidence that a model passed a behavioral scenario. Behavior changes still require clean-context validation and a sanitized summary in the pull request.

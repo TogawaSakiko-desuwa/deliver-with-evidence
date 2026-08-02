@@ -1,6 +1,7 @@
 ---
 name: deliver-with-evidence
 description: Orchestrate explicitly requested end-to-end delivery of non-trivial work from grounded scope to current, user-visible evidence across code, documents, data, interfaces, runtime changes, and authorized external systems. Use when the user invokes $deliver-with-evidence or explicitly asks an agent to carry a concrete artifact or change through implementation and verification. Combine with specialist skills. Do not use implicitly for Q&A, brainstorming, planning, lookup, diagnosis-only, review-only, or one-step low-risk edits.
+license: MIT
 ---
 
 # Deliver with Evidence

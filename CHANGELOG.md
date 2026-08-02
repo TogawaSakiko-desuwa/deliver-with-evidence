@@ -6,7 +6,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
-Planned `v0.1.0` public-preview baseline. Move these entries into a dated release section only when the tag and GitHub release exist.
+## [0.1.0] - 2026-08-02
+
+Initial public-preview release.
 
 ### Added
 
@@ -34,4 +36,5 @@ Planned `v0.1.0` public-preview baseline. Move these entries into a dated releas
 - Limited the public repository to the runtime skill, project documentation, and structural CI; local verification assets remain unpublished.
 - Removed unsupported release-qualification claims; `v0.1.0` remains a public preview.
 
-[Unreleased]: https://github.com/TogawaSakiko-desuwa/deliver-with-evidence/commits/main
+[Unreleased]: https://github.com/TogawaSakiko-desuwa/deliver-with-evidence/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/TogawaSakiko-desuwa/deliver-with-evidence/releases/tag/v0.1.0
